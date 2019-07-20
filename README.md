@@ -12,7 +12,6 @@ SlideMenuControllerSwift
 [![Downloads](https://img.shields.io/cocoapods/dt/SlideMenuControllerSwift.svg)](https://cocoapods.org/pods/SlideMenuControllerSwift)
 
 
-
 iOS Slide View based on iQON, Feedly, Google+, Ameba iPhone app.
 
 ![sample](Screenshots/SlideMenuControllerSwift3.gif)
@@ -21,20 +20,8 @@ iOS Slide View based on iQON, Feedly, Google+, Ameba iPhone app.
 
 #### CocoaPods
 ```
-pod 'SlideMenuControllerSwift'
+pod 'SlideMenuControllerSwift', :git => 'https://github.com/yervandsar/SlideMenuControllerSwift.git'
 ```
-
-#### Carthage
-
-if iOS8 or later, Carthage is supported
-
-* Add `github "dekatotoro/SlideMenuControllerSwift"` to your Cartfile.
-* Run `carthage update`.
-
-for more info, see [Carthage](https://github.com/carthage/carthage)
-
-#### Manually
-Add the `SlideMenuController.swift` file to your project.
 
 ## Usage
 
@@ -129,10 +116,8 @@ func rightDidClose()
 ```
 
 ## Requirements
-Requires Swift4.0 and iOS 9.0 and ARC.
-If you are developing in the Swift1.1 ~ 3.2, please use branch of swift1.1 ~ 3.  
-If you want to use even iOS8.0, please to import the code directly.   
-If you want to use objective-c even iOS6.0, plesea use [SlideMenuControllerOC](https://github.com/Pluto-Y/SlideMenuControllerOC).
+- Swift 5.0
+- iOS 9.0
 
 ## Features
 - Highly customizable
@@ -142,14 +127,10 @@ If you want to use objective-c even iOS6.0, plesea use [SlideMenuControllerOC](h
 ## Contributing
 Forks, patches and other feedback are welcome.
 
-## Creator
+## Creators
 ### SlideMenuControllerSwift
-[Yuji Hato](https://github.com/dekatotoro)
-[Blog](http://buzzmemo.blogspot.jp/)
-
-### SlideMenuControllerOC
-[Pluto Y Blog](http://www.pluto-y.com)
-[Sing Weibo](http://weibo.com/plutoy0504)
+- [Yuji Hato](https://github.com/dekatotoro), [Blog](http://buzzmemo.blogspot.jp/)
+- [Yervand Saribekyan](https://www.linkedin.com/in/yersar/)
 
 ## License
 SlideMenuControllerSwift is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
